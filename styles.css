@@ -96,7 +96,7 @@ body {
   column-gap: 50px;
 }
 
-.main .home .section-left {
+.section-left {
   width: 90%;
   height: 100%;
   display: flex;
@@ -104,19 +104,19 @@ body {
   row-gap: 25px;
 }
 
-.main .home .section-left p.bullet {
+.section-left p.bullet {
   margin-left: 1rem;
   margin-top: -1rem;
   text-align: justify;
   font-size: 0.9rem;
 }
 
-.main .home .section-left p.bullet a {
+.section-left p.bullet a {
   color: #7c7c7c;
   text-decoration: none;
 }
 
-.main .home .section-left p.bullet:before {
+.section-left p.bullet:before {
   content: "■ ";
   position: relative;
   color: #666;
@@ -124,39 +124,39 @@ body {
   margin-left: -0.8rem;
 }
 
-.main .home .section-left .label-header {
+.section-left .label-header {
   background: #01aa9d;
   padding: 8px 25px;
   border-radius: 20px;
   width: fit-content;
 }
 
-.main .home .section-left .label-header p {
+.section-left .label-header p {
   color: #fff;
 }
 
-.main .home .section-left p {
+.section-left p {
   color: #7c7c7c;
 }
 
-.main .home .section-left .h1 {
+.section-left .h1 {
   font-size: 40px;
   color: #555;
   font-weight: 900;
 }
 
-.main .home .section-left .h2 {
+.section-left .h2 {
   font-size: 20px;
   color: #555;
   font-weight: 900;
 }
 
-.main .home .section-left form .form-group {
+.section-left form .form-group {
   display: flex;
   column-gap: 10px;
 }
 
-.main .home .section-left form .form-group input {
+.section-left form .form-group input {
   background: #fff;
   padding: 10px 15px;
   width: 230px;
@@ -164,7 +164,7 @@ body {
   border-radius: 4px;
 }
 
-.main .home .section-left form .form-group button {
+.section-left form .form-group .button {
   background: #01aa9d;
   color: #fff;
   padding: 15px;
@@ -174,7 +174,7 @@ body {
   font-size: 1rem;
 }
 
-.main .home .section-right {
+.section-right {
   width: 60%;
   height: 100%;
   display: flex;
@@ -185,7 +185,7 @@ body {
   background-position: center;
 }
 
-.main .home .section-right img {
+.section-right img {
   width: 50%;
   position: absolute;
   top: 200px;
@@ -284,7 +284,6 @@ body {
     height: 10%;
     width: 75%;
   }
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -302,7 +301,6 @@ body {
     height: 10%;
     width: 90%;
   }
-
 }
 
 @media screen and (max-width: 1024px) {
@@ -336,21 +334,21 @@ body {
     align-items: center;
   }
 
-  .main .home .section-left {
+  .section-left {
     width: 100%;
     align-items: center;
     row-gap: 35px;
   }
 
-  .main .home .section-left h1 {
+  .section-left h1 {
     text-align: center;
   }
 
-  .main .home .section-left p {
+  .section-left p {
     text-align: center;
   }
 
-  .main .home .section-right {
+  .section-right {
     display: none;
   }
 
@@ -367,7 +365,6 @@ body {
   #mobile-nav.active {
     display: block;
   }
-
 }
 
 @media screen and (max-width: 767px) {
@@ -397,36 +394,36 @@ body {
     row-gap: 50px;
   }
 
-  .main .home .section-left {
+  .section-left {
     width: 100%;
     align-items: center;
     row-gap: 35px;
   }
 
-  .main .home .section-left h1 {
+  .section-left h1 {
     text-align: center;
   }
 
-  .main .home .section-left p {
+  .section-left p {
     text-align: center;
   }
 
-  .main .home .section-left form {
+  .section-left form {
     width: 100%;
   }
 
-  .main .home .section-left form .form-group {
+  .section-left form .form-group {
     width: 100%;
     flex-direction: column;
     row-gap: 15px;
   }
 
-  .main .home .section-left form .form-group input,
-  .main .home .section-left form .form-group button {
+  .section-left form .form-group input,
+  .section-left form .form-group .button {
     width: 100%;
   }
 
-  .main .home .section-right {
+  .section-right {
     display: none;
   }
 
