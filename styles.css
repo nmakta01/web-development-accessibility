@@ -107,7 +107,8 @@ body {
 .section-left p.bullet {
   margin-left: 1rem;
   margin-top: -1rem;
-  text-align: justify;
+  /* text-align: justify; */
+  text-align: left;
   font-size: 0.9rem;
 }
 
@@ -206,7 +207,7 @@ body {
   justify-content: left;
 }
 
-.main .social .ul li a svg {
+.main .social .ul li a img {
   width: 30px;
   fill: #dedfe7;
 }
